@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/boilerplate.css"/>
+<link  id="hostStyle" rel="stylesheet" href="css/styles.css"/>
+<title></title>
+</head>
+
+<body class="hostElt">
+
+    <div class="mainForm box form">
+        <header class="header">
+            <h1>main form</h1>
+        </header>
+        <aside class="asideOptions box">
+            <form action="">
+                <ul class="checkboxList">
+                    <li><input type="checkbox" class="checkbox">checkbox1</li>
+                    <li><input type="checkbox" class="checkbox">checkbox2</li>
+                    <li><input type="checkbox" class="checkbox">checkbox3</li>
+                </ul>
+            </form>
+        </aside>
+        <main class="main box">
+            <button id="callDog" class="button">call dog</button>
+            <button class="switchMode button" id="main">switch mode</button>
+        </main>
+        <aside class="asideFiles box">
+            <ul class="fileList">
+                <li>
+                    <p>file1</p>
+                </li>
+                <li>
+                    <p>file2</p>
+                </li>
+                <li>
+                    <p>file3</p>
+                </li>
+                <li>
+                    <p>file4</p>
+                </li>
+            </ul>
+        </aside>
+        <footer class="footer box">
+            <p>footer</p>
+        </footer>
+    </div>
+    <div class="subForm hide form">
+        <h1>sub form</h1>
+        <main class="subMain">
+            <button id="callCat" class="button">call cat</button>
+            <button class="switchMode button" id="sub">switch mode</button>
+        </main>
+    </div>
+    
+    <!-- These are debugging shortcuts.  Class debuglink items only appear in debug mode 
+    <span class="debuglink" id="reload">Reload</span>
+    <span class="debuglink" id="debug">Debug</span>
+    <span class="debuglink" id="sources">Sources</span>
+     -->
+    
+    <script src="js/libs/CSInterface.js"></script>
+    <script src="js/libs/jquery-2.0.2.min.js"></script>
+
+    <script src="js/themeManager.js"></script>
+    <script src="js/main.js"></script>
+
+        
+</body>
+</html>

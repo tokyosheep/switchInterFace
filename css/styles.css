@@ -1,0 +1,90 @@
+/*Your styles*/
+
+body{
+    color: #fff;
+    background: #333;
+}
+
+.box{
+    border: 1px solid #000;
+}
+
+.button{
+    color: #fff;
+}
+
+.mainForm{
+    display: grid;
+    grid-template-columns: 120px 1fr 150px;
+    grid-template-rows: 80px 1fr 50px;
+    grid-template-areas: 
+    "header header header"
+    "asideOptions main asideFiles"
+    "footer footer footer"
+    ;
+}
+
+.header{
+    grid-area: header;
+}
+
+.asideOptions{
+    grid-area: asideOptions;
+}
+    .checkboxList{
+        list-style: none;
+        padding: 0;
+    }
+
+.main{
+    grid-area: main;
+}
+
+.asideFiles{
+    grid-area: asideFiles;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+
+
+.subForm{
+    background: rgb(31, 32, 43);
+}
+
+.hide{
+    display: none;
+}
+
+/*
+Those classes will be edited at runtime with values specified
+by the settings of the CC application
+*/
+.hostFontColor{}
+.hostFontFamily{}
+.hostFontSize{}
+
+/*font family, color and size*/
+.hostFont{}
+/*background color*/
+.hostBgd{}
+/*lighter background color*/
+.hostBgdLight{}
+/*darker background color*/
+.hostBgdDark{}
+/*background color and font*/
+.hostElt{}
+
+
+.hostButton{
+    border:1px solid;
+    border-radius:2px;
+    height:20px;
+    vertical-align:bottom;
+    font-family:inherit;
+    color:inherit;
+    font-size:inherit;
+}
+
